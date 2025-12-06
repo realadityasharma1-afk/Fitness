@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Fitness360 | Contact</title>
+    <meta name="description" content="Contact Fitness360 with your questions and fitness goals.">
+    <meta name="keywords" content="contact, form, fitness questions, email">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Dark top header bar -->
+    <header>
+        <div class="header-inner">
+            <div class="brand">Fitness360</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="workouts.html">Workouts</a></li>
+                    <li><a href="nutrition.html">Nutrition</a></li>
+                    <li><a href="progress.html">Progress</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- White content card -->
+    <main>
+        <section class="hero">
+            <h2>Contact / Email Form</h2>
+            <p>If you have questions about workouts, nutrition, or getting started, fill out this form. These fields help me understand your goals.</p>
+        </section>
+
+        <section>
+            <form id="contact-form" action="#" method="post">
+                <label for="name">Name:</label>
+                <input id="name" name="name" type="text" required>
+
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="email" required>
+
+                <label for="goal">Main fitness goal:</label>
+                <select id="goal" name="goal" required>
+                    <option value="">-- Please choose an option --</option>
+                    <option value="cardio">Improve heart health / cardio</option>
+                    <option value="strength">Build strength</option>
+                    <option value="weight-loss">Lose weight</option>
+                    <option value="general">General health</option>
+                </select>
+
+                <label for="message">Your question or comments:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <input type="submit" value="Send Message">
+            </form>
+
+            <p style="margin-top: 1rem;">
+                You can also reach me at: <strong>Alnu11@asu.edu</strong>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Fitness360. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
